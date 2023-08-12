@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(255, 102, 128);
+}
+
+header {
+  font-size: 10vmin;
+  text-align: center;
+}
+
+h1 {
+  font-size: 7vmin;
+  text-align: center;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(3, 20vmin);
+  grid-template-rows: repeat(3, 20vmin);
+  gap: 1vmin;
+  justify-content: center;
+
+  margin-bottom: 1vmin;
+}
+
+#tiles {
+  background-color: pink;
+  border: 2px dotted black;
+}
+
+
+.button {
+  text-align: center;
+}
